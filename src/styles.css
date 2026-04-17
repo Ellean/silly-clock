@@ -10,7 +10,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
   height: 100vh;
 }
 
@@ -35,7 +34,7 @@ body {
 }
 
 .time {
-  font-size: clamp(56px, 20vh, 220px);
+  font-size: clamp(40px, 20vh, 220px);
   line-height: 1.05;
   font-weight: bold;
   color: #ff4d4f;
