@@ -20,6 +20,9 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
+  left: 50%;
+  bottom: 4vh;
+  transform: translateX(-50%);
 }
 
 .clock:hover {
@@ -32,20 +35,16 @@ body {
 }
 
 .time {
-  font-size: 80px;
+  font-size: 32px;
+  line-height: 1.05;
   font-weight: bold;
-  color: transparent;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
-  -webkit-text-stroke: 1px #ebebeb;
-  text-shadow: none;
-  background-clip: text;
-  -webkit-background-clip: text;
-  background-color: #ebebeb86;
+  color: #ff4d4f;
+  text-shadow: 0 0 12px rgba(163, 28, 32, 0.35);
 }
 
 .date {
-  font-size: 24px;
-  color: #ebebeb;
+  font-size: 22px;
+  color: #ffd6d6;
 }
 
 .change-bg-btn {
