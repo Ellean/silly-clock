@@ -35,8 +35,8 @@ body {
 }
 
 .time {
-  font-size: clamp(56px, 20vh, 180px);
-  line-height: 1;
+  font-size: clamp(56px, 20vh, 220px);
+  line-height: 1.05;
   font-weight: bold;
   color: #ff4d4f;
   text-shadow: 0 0 12px rgba(163, 28, 32, 0.35);
