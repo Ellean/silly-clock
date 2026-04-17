@@ -10,9 +10,9 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "疯七电竞",
-        "width": 750,
-        "height": 440
+        "title": "电竞",
+        "width": 500,
+        "height": 300
       }
     ],
     "security": {
